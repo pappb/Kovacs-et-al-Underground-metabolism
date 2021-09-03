@@ -1,0 +1,9 @@
+cameo==0.11.5
+cobra==0.13.0
+cplex==12.8.0.0
+gurobipy==8.0.0
+ipython==5.3.0
+numpy==1.15.1
+optlang==1.4.2
+pandas==0.23.4
+six==1.11.0
