@@ -50,7 +50,7 @@ C01380_c
 alein_c
 15dap_c
 C01719_c
-C01845_c
+C05979_c
 C01904_c
 ghb_c
 tartr_D_c

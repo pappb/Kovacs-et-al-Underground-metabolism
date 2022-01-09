@@ -14,7 +14,7 @@ from random import randint
 import numpy as np
 #model=load_model("heterologous.xml")
 model="../heterologous.xml"
-model=cobra.io.sbml.create_cobra_model_from_sbml_file(model, False, False,False)
+model=cobra.io.read_sbml_model(model)
 model.solver='gurobi'
 
 def white_space_remover(string):#while reading the '.txt' files, the lines are separated wit the '\n' character. This function removes '\n' from the end of the strings.

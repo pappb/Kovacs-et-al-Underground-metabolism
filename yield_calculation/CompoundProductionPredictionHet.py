@@ -12,7 +12,7 @@ pandas.options.display.max_rows = 100
 from random import randint
 from cobra.util.solver import linear_reaction_coefficients
 model="../heterologous.xml"
-model=cobra.io.sbml.create_cobra_model_from_sbml_file(model, False, False,False)
+model=cobra.io.read_sbml_model(model)
 model.reactions.ATPM.lower_bound=3.15
 model.reactions.EX_h_lp_e_rp_.upper_bound=0
 model.reactions.SPODM.upper_bound=0
