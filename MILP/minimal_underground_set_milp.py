@@ -1,9 +1,14 @@
 # Script to predict minimal underground reaction sets for value-added compound production
 # Created: 23 June 2019
-# Author:Szabolcs Cselgő Kovács (script based on *OptCouple* supplementary material)
+# Author:Szabolcs Cselgő Kovács
+#
+# Citation: This script is based on a knock-in OptCouple example MILP script (Jensen et al., 2019)
+#       Kristian Jensen, Valentijn Broeken, Anne Sofie Lærke Hansen, Nikolaus Sonnenschein, Markus J. Herrgård,
+#            OptCouple: Joint simulation of gene knockouts, insertions and medium modifications for prediction of growth-coupled strain designs,
+#            Metabolic Engineering Communications, Volume 8, 2019,e00087, ISSN 2214-0301, https://doi.org/10.1016/j.mec.2019.e00087.
+#
+#
 # Contact: kovszasz@gmail.com
-
-
 # Loading dependencies
 import os,pickle
 os.environ["OPTLANG_USE_SYMENGINE"] = "False"
